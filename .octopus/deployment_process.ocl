@@ -1,0 +1,10 @@
+step "Run a Script" {
+
+    action {
+        properties = {
+            Octopus.Action.Template.Id = "ActionTemplates-962"
+            Octopus.Action.Template.Version = "1"
+        }
+        worker_pool_variable = ""
+    }
+}
